@@ -1,8 +1,8 @@
 # base on latest ubuntu base image
-FROM ubuntu
+FROM busybox
 
 # do something that takes a long time
-RUN sleep 10s
-
-# do the thing
-RUN touch /codeship-docker-push-example
+RUN echo HELLO
+RUN echo LAURA
+RUN echo AND
+RUN echo BRENDAN
