@@ -1,4 +1,4 @@
-app::
+app:
   build:
     dockerfile_path: Dockerfile
     path: 17.caching
