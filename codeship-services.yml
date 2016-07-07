@@ -1,5 +1,8 @@
-17demo:
+app::
   build:
     dockerfile_path: Dockerfile
     path: 17.caching
   cached: true
+sleep:
+  image: ubuntu
+

@@ -1,4 +1,5 @@
 - service: 17demo
   name: 17
   command: printenv
-
+- service: ubuntu
+  command: sleep 1h
