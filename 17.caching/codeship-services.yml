@@ -1,3 +1,5 @@
+sleep:
+  image: ubuntu
 demo:
   build:
     dockerfile_path: Dockerfile

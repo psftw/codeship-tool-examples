@@ -1,2 +1,4 @@
 - service: demo
-  command: sleep 10m
+  command: echo done
+- service: sleep
+  command: sleep 1h
