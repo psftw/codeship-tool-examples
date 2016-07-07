@@ -1,5 +1,5 @@
 - service: app
   name: 17
   command: printenv
-- service: ubuntu
+- service: sleep
   command: sleep 1h
