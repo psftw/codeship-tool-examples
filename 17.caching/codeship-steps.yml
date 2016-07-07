@@ -1,2 +1,2 @@
 - service: demo
-  command: ls -l
+  command: sleep 10m
