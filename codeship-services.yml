@@ -2,8 +2,10 @@
   build:
     image: 01demodockerfile
     dockerfile_path: 01.dockerfile/Dockerfile
+  cached: true
 01demodockerfiledockercompose:
   build: ./01.dockerfile/
+  cached: true
 01demohub:
   image: ruby:2.2.0
 02demo:
@@ -11,6 +13,7 @@
     image: 02myapp
     dockerfile_path: Dockerfile
     path: 02.redis/
+  cached: true
   links:
     - redis
 03demo:
