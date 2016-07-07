@@ -1,4 +1,4 @@
-- service: 17demo
+- service: app
   name: 17
   command: printenv
 - service: ubuntu
